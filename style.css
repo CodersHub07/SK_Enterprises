@@ -1,0 +1,243 @@
+/*----------------Full webpage-----------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:#fff;
+    background-image: linear-gradient(to left,#40c4ff ,#00b0ff)
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#navbar , #slider{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.title{
+    text-align: center;
+}
+
+/*------------------------Navbar-----------------------------*/
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 20px #333;
+}
+#navbar{
+    background-image: linear-gradient(to left,#40c4ff ,#00b0ff);
+}
+
+ 
+.navbar-brand img{
+    height: 30px;
+    width: auto;
+    padding-left: 40px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    font-weight: 600;
+    color: #fff !important ;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.navbar-nav li a:hover{
+    color: black !important;
+    transition: 0.9s;
+}
+
+.dropdown-menu{
+    background-image: linear-gradient(to left,#40c4ff ,#00b0ff);
+}
+.dropdown-menu a:hover{
+    background-image: linear-gradient(to left,#40c4ff ,#00b0ff) !important;
+}
+/*------------------------slider-----------------------------*/
+.carousel-item img {
+    height: 90%;
+}
+
+#about{
+    background-image: linear-gradient(to left ,rgba(0,0,0,0.2),rgba(0,0,0,0.9)),url(Img/about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*------------------------// Services //-----------------------------*/
+.list-unstyled{
+    padding-top: 30px;
+}
+
+/*------------------------// Promo /--------------------------------*/
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/ser-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+/*------------------------// Productss //-----------------------------*/
+#products , #machines{
+    padding-top: 10px !important;
+}
+#products .col-md-4 , #products .col-md-3{
+    margin-bottom: 20px;
+}
+
+#products .col-md-3 .card{
+    width: 15rem !important;
+    height: 12rem !important;
+}
+
+#products .col-md-3 .card img{
+    height: 100%;
+}
+
+#products .col-md-4 .card{
+    width: 18rem !important;
+}
+
+#product{
+    padding: 20px 50px;
+}
+.card-text{
+    color: #212121;
+}
+
+#product #col-md-4{
+    display:inline-block;
+    padding: 25px 70px !important;
+    margin-left: 30px;
+}
+
+#product .card:hover{
+    box-shadow: 0 2px 20px #000;
+    transform: translateY(-10px);
+}
+
+#product .btn:hover{
+   
+    background-color: #3f51b5;
+    box-shadow: 0 2px 20px #000;
+    transform: translateY(-10px);
+}
+
+#machines .col-md-3 .card{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px ;
+
+}
+
+
+#parts .col-md-3 #card{
+    height: 500px !important;
+}
+
+/*---------Services----------*/
+#why{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#why h1{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#why h1:after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.why{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#why p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.why .col-md-3:hover{
+    cursor: pointer;
+    transition: 01s;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+/*-----------------------Get In Touch------------------------*/
+#contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0!important;
+    border: none!important;
+}
+::placeholder{
+    color: #999!important;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 430px) {
+.card{
+    width: 25rem !important;
+}
+}
+
