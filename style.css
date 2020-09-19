@@ -224,18 +224,14 @@ section{
 ::placeholder{
     color: #999!important;
 }
-.follow{
-    background: #fff;
-    padding: 10px;
-    margin: 15px;
-}
-.contact-info .fa{
-    margin: 10px;
-    color: #007bff;
-    font-weight: bold;
+
+footer{
+    background: #453D3B;
 }
 
-
+footer a{
+    text-decoration: none;
+}
 
 @media (max-width: 430px) {
 .card{
