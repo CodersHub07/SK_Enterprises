@@ -235,6 +235,7 @@ footer a{
 
 .con-detail{
     padding-right: 20px;
+    width: 30%
 }
 
 @media (max-width: 430px) {
@@ -242,4 +243,3 @@ footer a{
     width: 25rem !important;
 }
 }
-
