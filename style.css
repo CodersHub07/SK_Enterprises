@@ -104,7 +104,7 @@ section{
 }
 
 /*------------------------// Productss //-----------------------------*/
-#products #title:after{
+#title:after{
     content: '';
     background: #efefef;
     display: block;
