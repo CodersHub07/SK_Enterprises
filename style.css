@@ -184,6 +184,7 @@ section{
     width: 170px;
     margin: 20px auto 5px;
 }
+
 .why{
     margin-top: 40px;
 }
@@ -208,6 +209,7 @@ section{
 
 /*-----------------------Get In Touch------------------------*/
 #contact{
+    background: #efefef;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #777;
