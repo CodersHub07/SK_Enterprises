@@ -104,6 +104,14 @@ section{
 }
 
 /*------------------------// Productss //-----------------------------*/
+#products h1:after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
 #products , #machines{
     padding-top: 10px !important;
 }
