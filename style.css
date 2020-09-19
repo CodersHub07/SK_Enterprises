@@ -227,15 +227,41 @@ section{
 
 footer{
     background-color: #453D3B !important;
+    color: #fff;
+    padding-bottom: 20px;
 }
 
 footer a{
-    text-decoration: none;
+    text-decoration: none !important;
+    color: #FFC0CB !important;
+    font-size: 15px;
+}
+
+footer .mylink:hover{
+    color: #00b0ff !important;
+}
+
+footer a:hover{
+    color: #fff !important;
+}
+
+footer .fas{
+    padding: 5px;
+    font-size: 15px;
 }
 
 .con-detail{
+    padding-top: 30px;
     padding-right: 20px;
-    width: 30%
+    width: 80% !important;
+}
+
+.con-detail p{
+    width: 80%;
+    text-align: justify;
+    padding-top: 20px;
+    color: #FFC0CB; 
+    font-size: 13px;
 }
 
 @media (max-width: 430px) {
