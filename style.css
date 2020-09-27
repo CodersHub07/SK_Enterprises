@@ -269,9 +269,3 @@ footer .fas{
     color: #FFC0CB; 
     font-size: 13px;
 }
-
-@media (max-width: 430px) {
-.card{
-    width: 25rem !important;
-}
-}
